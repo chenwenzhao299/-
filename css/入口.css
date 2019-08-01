@@ -72,11 +72,13 @@ hr{
 .circle li:nth-child(1) { 
     top: 15px;
     left:200px;
+    animation: animated 8s linear infinite;
     }
  /* 第二个圆的位置  旋转角度 */
     .circle li:nth-child(2) {
     top: 200px;
     right: 15px;
+    animation: animated 12s linear infinite;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -85,6 +87,7 @@ hr{
     }
  /* 第三个圆的位置  旋转角度 */
     .circle li:nth-child(3) {
+        animation: animated 5s linear infinite;
     bottom:15px;
     left:200px;
     
@@ -96,6 +99,7 @@ hr{
     }
  /* 第四个圆的位置  旋转角度 */
     .circle li:nth-child(4) {
+        animation: animated 7s linear infinite;
     top: 200px;
     left: 15px;
     -webkit-transform: rotate(270deg);
@@ -275,6 +279,7 @@ hr{
     border:5px solid powderblue;
     box-sizing: border-box;
 }
+
 .con-zhao{
     background: url("../images/bg1.jpg");
     color: #fff;
@@ -340,4 +345,8 @@ hr{
 }
 [class^=con]>span{
     line-height: 30px;
+}
+.con-guo>span{
+    display: inline-block;
+    width: 327px;
 }

@@ -1,0 +1,57 @@
+.lianxiwo{
+    margin-top: 100px;
+    height: 200px;
+    position: relative;
+    text-align: left;
+    
+}
+.lianxiwo .biaoti4{
+    margin-top: 50px;
+    height: 50px;
+    padding: 10px 262px;
+    line-height: 35px;    
+    background: rgba(149, 138, 150,0.1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 25px;
+}
+.biaoti4 .xian4{
+    position: absolute;
+    top: 7px;
+    display: inline-block;
+    background:  rgb(149, 138, 150);
+    width: 3px;
+    height: 40px;   
+}
+
+.lianxifangshi{
+    background: #333;
+    overflow: hidden; 
+    height:200px;
+    margin-top: 20px;  
+   margin-right: auto;
+   margin-left: auto;
+
+}
+.lianxifangshi .weixin{
+    margin-left: 384px;
+}
+
+.lx{
+    
+    float: left;
+    margin:10px ;
+}
+
+
+.dianhua{
+    margin-left: -55px;
+
+}
+.qq{
+    margin-left: -36px;
+}
+.footer{
+    height: 50px;
+    margin-top: 159px;
+
+}
