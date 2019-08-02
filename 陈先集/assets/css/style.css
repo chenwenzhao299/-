@@ -94,6 +94,37 @@ a {
     margin-left: 50px;
     float: left;
     font-style: italic;
+    padding-right: 300px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+}
+.nav>img{
+    width: 460px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.nav{
+    transition: all 1s;
+    position: relative;
+}
+.nav:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 2px #F3DBBA;
+}
+.hobby{
+    transition: all 1s;
+}
+.work{
+    transition: all 1s;
+}
+.work:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 2px #F3DBBA;
+}
+.hobby:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 2px #F3DBBA;
 }
 .work{
     margin-top: 30px;
