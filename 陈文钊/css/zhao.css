@@ -86,6 +86,8 @@ body .bg-none{
 .introduct>img{
     transition: all 0.5s;
     margin-top: 25px;
+    width: 376px;
+    margin-left: 30px;
 }
 .introduct>img:hover{
     box-shadow:  0 0 15px 3px white;
