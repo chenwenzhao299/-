@@ -1,0 +1,360 @@
+*{margin:0;padding:0}
+body{
+    font-size: 14px;
+}
+ a{
+    text-decoration: none;
+    color: #333;
+}
+.top{
+    height:63px;
+    line-height: 50px;
+    text-align: center;
+   background:#18BEBE url("images/logo.png") no-repeat center;
+}
+.nav i{   
+    margin-top: 10px;
+}
+.nav{
+    height:44px;
+    overflow: hidden;
+    background:#F3EFF2; 
+}
+.nav-left{
+    height:44px;  
+    width: 100px; 
+    position: relative;
+    text-align: center;
+    float: left;
+    margin-left: 225px;
+    margin-top:13px;
+
+}
+.nav-left img{
+    position: absolute;
+    left:-19px;
+}
+.nav-conter{ 
+    height:44px;
+    float:left;
+    margin-left:152px;
+    font-size: 18px;
+    margin-top:10px;
+}
+.nav-conter a{
+    margin-left: 47px;
+}
+.nav-right{
+    height: 44px;
+    width: 150px;
+    float:right;
+    margin-right: 104px;
+    margin-top: 13px;
+    position: relative;
+}
+.nav-right img{
+position: absolute;
+right: 153px;
+}
+.content{
+    width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-nav{
+font-size: 18px;
+height: 57px;
+line-height: 57px;
+margin-left: 16px;
+}
+.menu{
+    font-size: 16px;
+    height: 171px;
+    background: #EBEBEB;
+    overflow: hidden;
+    padding-bottom: 24px;
+}
+.content .menu li{   
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+.content .menu ul{    
+    clear: both;
+}
+.menu a {
+    display: block;
+    margin-top: 20px;
+    margin-left:10px;
+}
+.menu  li:nth-child(1) a{
+    color:#18BEBE;
+}
+.menu li a{
+    border:1px solid #EBEBEB ;
+}
+.menu  a:hover{
+    border:1px solid #FCBA50;
+    background: #FFFFFF;
+}
+.search {
+    height: 50px;
+    width: 1120px;
+    background: #EBEBEB;
+    margin-top: 21px;
+    overflow: hidden;
+}
+.search-left{
+    width:220px;
+    height:50px;
+    margin-top: 17px;
+    margin-left: 23px;
+    float: left;
+}
+.search-conter {
+    width: 120px;
+    height: 50px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    position: relative;
+ 
+}
+.search-conter input{
+    width: 228px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    
+}
+.search-conter button{
+  width: 50px;
+  height: 30px; 
+  background: #fff;
+  position: absolute;
+  top: 0px;
+  left: 167px;
+  border: none;
+  outline: none;
+  
+}
+.search-right{
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    color: #18BEBE;
+    margin-right: -56px;
+    margin-top: 14px;
+    float:right;
+    position: relative;
+}
+.search-right img{
+    position: absolute;
+    left: -21px;
+    top: 1px;
+}
+.content{
+    overflow: hidden;
+}
+.content.imgk{
+    float:left;
+    width: 230px;
+    height: 300px;
+    box-sizing: border-box;   
+}
+.container div:not(:nth-child(4n+4)){
+    margin-right: 13.3333px
+}
+.galary {
+    margin-top: 20px;
+}
+
+.row::after {
+    content: "";
+    display:table;
+    clear: both;
+}
+
+.galary>div {
+    float: left;
+    width: 269px;
+    height: 350px;
+    padding:13px 30px 13px;
+    border: 1px solid #eee;
+    background-color: rgb(235, 235, 235);
+    box-sizing: border-box;
+    margin-top:15px;
+}
+
+.galary>div:not(:last-child) {
+    margin-right: 13.333px;
+}
+
+.galary p {
+    font-size: 14px;
+}
+.galary .sp-t {
+    margin-top: 7px;
+}
+.galary .sp-p {
+    margin-top: 15px;
+    font-size: 17px;
+    color: rgb(24, 190, 190);
+}
+
+.galary>div:hover .sp-p{
+    color: inherit;
+}
+
+.galary>div:hover {
+    color: rgb(255, 167, 0);
+    background-color: #ccc;
+} 
+/* ----------page--------- */
+.page {
+    margin-top: 20px;
+}
+
+.row::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.turnpage {
+    margin: 10px 3em 14px 0;
+    float: left;
+}
+
+a.sp-a {
+    display: inline-block;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.turnpage a {
+    margin-right: 41px;
+}
+.turnpage a:hover {
+    text-decoration: underline;
+    color: rgb(255, 167, 0);
+}
+input.num {
+    width: 30px;
+    height: 30px;
+    margin: auto 5px;
+}
+.page>p {
+    float: left;
+    line-height: 50px;
+}
+
+a.sp-s {
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+    margin: 10px auto 10px 85px;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 167, 0);
+}
+
+a.sp-s:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* ----------feedback---------- */
+.feedback {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.feedback img {
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.feedback p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.feedback .sp-f {
+    padding-bottom: 15px;
+    color: rgb(26, 190, 191);
+    font-size: 20px;
+}
+
+.bottom {
+    background-color: rgb(81, 81, 81);
+    color: white;
+}
+
+.bottom a {
+    color: white;
+}
+.bottom-nav {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bottom-nav-logo {
+    float: left;
+}
+
+.bottom-nav-logo img {
+    margin: 10px auto;
+}
+
+p.sp-b {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bottom-nav-bar {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 90px;
+    font-size: 13px;
+}
+
+.bottom-nav-wrap{
+    position: relative;
+}
+
+.bottom-nav-wrap a {
+    margin-right: 40px;
+    line-height: 35px;
+}
+
+.bottom-nav-wrap a:hover {
+    text-decoration: underline;
+}
+.bottom-nav-wrap img {
+    margin-left: 60px;
+    margin-right: 0;
+    position: absolute;
+    top: 7px;
+}
+a.sp-link {
+    margin-right: 5px;
+    margin-left: 95px;
+}
+.end {
+    width: 1000px;
+    margin: 20px auto 0 auto;
+    padding: 20px 0 20px 20px;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.end p {
+    font-size: 13px;
+}
+.end-p {
+    float: left;
+    margin-right: 390px;
+}

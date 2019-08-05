@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.top {
+    height: 65px;
+    background: #FFFFFF url('../images/mi.PNG') no-repeat;
+    margin-left: 340px;
+    margin-top: 18px;
+}
+
+.map img {
+    height: 415px;
+    margin-top: 18px;
+    position: relative;
+}
+
+.bottom {
+    color: #666;
+    font-size: 12px;
+    line-height: 36px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bottom-nav {
+    top: 70%;
+    margin-left: 200px;
+}
+
+.copyright a {
+    color: #666;
+    text-decoration: none;
+}
+
+.substance {
+    width: 280px;
+    height: 365px;
+    background: #FFFFFF;
+    text-align: center;
+    border: 1px solid #666;
+    position: absolute;
+    left: 61%;
+    top: 21%;
+}
+.active {
+    color: #FF6700;
+}
+ul {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}
+.content {
+    position: absolute;
+    left: 8%;
+    top: 20%;
+}
+.right input {
+    background: #FF6700;
+    height: 36px;
+    width: 236px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #FF6700;
+}
+.left input,.centre input {
+    font-size: 12px;
+    height: 36px;
+    width: 236px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+}
+.line {
+    width: 1px;
+    height: 20px;
+    margin: 0 29px 0 30px;
+    border: 1px solid #e0e0e0;
+}
+.enroll {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: -2px;
+}
+img {
+    margin-top: 20px;
+}
+.register{
+    position: absolute;
+    font-size: 12px;
+    margin-left: 60px;
+    margin-top: 155px;
+}
+span{
+    color: #666;
+}
+.footer{
+    margin: 188px auto;
+    margin-left: 10px;
+    width: 260px;
+    border:1px solid white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+fieldset{
+    border: 0;
+}
+.item{
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
+.all-icons{
+    margin: -185px auto;
+    text-align: center;
+    width: 400px;
+    margin-left: -45px;
+}
+.all-icons a {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #999;
+    border-radius:50%;
+    margin-right: 25px;
+}
+.all-icons span{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('../images/icons_type.png');
+}
+.all-icons .qq{
+    background-position-x: -19px;
+}
+.all-icons .weibo{
+    background-position-x: -38px;
+}
+.all-icons .pay{
+    width: 22px;
+    background-position-x: -57px;
+}
+.all-icons .wechat{
+    width: 22px;
+    background-position-x: -84px;
+}
+

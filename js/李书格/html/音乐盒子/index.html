@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="app">
+        <input type="text" v-model="keyword">
+        <button @click="handleClick">搜索音乐</button>
+        <img src="images/music.jpg" alt="">
+        <audio :src="musicUrl" controls loop autoplay></audio>
+         
+    </div>  
+</body>
+</html>
